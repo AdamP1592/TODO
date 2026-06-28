@@ -1,17 +1,19 @@
 # TODO
-This is just a repository that stores a list of project descriptions I want to work on in the future.
+This is just a repository that stores a list of project descriptions I intend on tackling in the future.
 
 ## Projects:
 
 ### RAG Safety Lookup.
-
-- 2 main functions:
-    - Translate user query into proper terminology for search (taxonomy mapper)
+2 main models:
+1. Interface model
+    - Model responsible for utilizing search results
+    - Interprets results of search as well as confidence level from Search Model
+2. Search Model
+    - Very small model responsible for handling search requests(something like haiku)
+    - Translate user query into proper terminology for search 
     - Summarize and translate the results of that search (aggregate and normalize)
+    - Returns a confidence value as well as the results
 
-- Potential needs:
-    - A method of integrating company->manufacturer connections
-    - A synonym lookup for overlapping terminology. 
 
 ### RAG Resume Refiner
 - Instead of the standard "build it for them" a system that recommends specific changes and provides reasoning for suggesting them, while also allowing for an underlying initial custom prompt to be wrote for providing the llm direction.
