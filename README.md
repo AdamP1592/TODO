@@ -14,7 +14,7 @@ Instead of the standard "build it for them" a system that recommends specific co
 A simulated compute cluster that allows me to operate as though each node is an independent part of a real network. Built for testing hpc software without a compute cluster.
 
 ### Neuron Growth Cone Dynamics Simulation
-A simulation of the growth and movement of neurons over time built to integrate with Cable theory and Compartmental neuron models. 
+A simulation of the growth and movement of neurons over time built to integrate with Cable theory and Compartmental neuron models. Check out what I'll be doing [here](./projects/NEURON_GROWTH_CONE_DYNAMICS_SIM.md)
 
 Relates to my steady-state neuron culture simulation. [here](https://github.com/AdamP1592/Network-Simulation).
 
