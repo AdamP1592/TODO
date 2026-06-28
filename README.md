@@ -1,5 +1,5 @@
 # Project Incubator
-This is just a repository that stores a list of project descriptions I intend on tackling in the future.
+Welcome to my incubator. This is where I will be fleshing out my project ideas from now on. In the future I may opt to port all my project documents from google drive to here, but for now it's exclusive to what I will be working on in the future.
 
 ## Projects:
 
